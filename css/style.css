@@ -453,7 +453,7 @@
             }
         }
         
-        @media(min-width: 961px) and (max-width: 1920px) {
+        @media(min-width: 961px) {
             .header {
                 background-image: url("../images/football_1920.jpg");
                 padding: 0 12.3rem 0 12.3rem;
