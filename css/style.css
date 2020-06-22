@@ -577,21 +577,28 @@
                 padding-left: 12.3rem;
                 padding-top: 6.5rem;
                 padding-bottom: 3.6rem;
+                display: flex;
+                flex-direction: column;
             }
             .players-Collaboration-container {
                 padding-right: 50%;
                 padding-left: 12.3rem;
                 padding-bottom: 3.6rem;
                 padding-top: 3.6rem;
+                display: flex;
+                flex-direction: column;
             }
-            .players-Growth-container {
-                padding-right: 50%;
+            div.players-Growth-container {
+                display: flex;
+                flex-direction: column;
+                 padding-right: 50%;
                 padding-left: 12.3rem;
                 padding-bottom: 3.6rem;
                 padding-top: 3.6rem;
             }
-            .article-content {
+           .article-content {
                 font-size: 1.25rem;
+                left: 0;
             }
             div.picture-container {
                 width: 50%;
@@ -634,8 +641,6 @@
                 padding: 0;
                 top: 13.2rem;
                 left: 45vmax;
-                
-               
             }
             div.article-number-content-find-contact {
                 content: "";
