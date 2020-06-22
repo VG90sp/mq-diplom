@@ -93,6 +93,10 @@
             font-size: 0.5rem;
             color: #ffffff;
             font-family: Open-sans-bold, sans-serif;
+            border: none;
+        }
+        a.button-link {
+            text-decoration: none;
         }
         
         .First-line {
@@ -100,6 +104,7 @@
             font-size: 0.5rem;
             color: #ffffff;
             font-family: Open-sans-regular, sans-serif;
+            text-decoration: none;
         }
         
         .block-container {
@@ -124,7 +129,7 @@
             text-align: center;
         }
         
-        .article-number-content {
+        div.article-number-content {
             font-family: Open-sans-bold, sans-serif;
             color: black;
             font-size: 0.8rem;
@@ -133,13 +138,13 @@
             padding-left: 1.25rem;
         }
         
-        h3.article-number {
+        span.article-number {
             margin: 0;
             border-bottom: #5e42b0 4px solid;
             border-radius: 2px;
         }
         
-        h3.Growth-article-number {
+        span.Growth-article-number {
             border-bottom: white 4px solid;
             border-radius: 2px;
         }
@@ -150,6 +155,10 @@
             color: #c1c1c1;
             font-family: Open-sans-bold, sans-serif;
             margin: 0;
+        }
+        .article-number-title {
+            display: flex;
+            flex-wrap: nowrap;
         }
         
         .article-content {
@@ -188,7 +197,7 @@
             color: white;
         }
         
-        .Growth-article-number-content {
+        div.Growth-article-number-content {
             color: #8765dd;
         }
         
@@ -196,7 +205,7 @@
             max-width: 100%;
         }
         
-        h3.article-number-filled {
+        span.article-number-filled {
             color: white;
             border-bottom: #8f7bc8 4px solid;
             border-radius: 2px;
@@ -374,7 +383,7 @@
             .article-title {
                 font-size: 2rem;
             }
-            .article-number-content {
+            div.article-number-content {
                 font-size: 1.1rem;
             }
             .athlets {
@@ -530,7 +539,7 @@
             .article-title {
                 font-size: 2rem;
             }
-            .article-number-content {
+            div.article-number-content {
                 font-size: 1.1rem;
             }
             .Connection-container {
@@ -558,7 +567,7 @@
                 content: "";
                 position: absolute;
                 top: 2rem;
-                left: 42%;
+                right: 5%;
             }
             .section-title-players {
                 padding-left: 12.3rem;
@@ -586,9 +595,11 @@
             }
             div.picture-container {
                 width: 50%;
+                
             }
             .section-banner-jpg {
-                height: 730px;
+                height: 100%;
+                object-fit: cover;
             }
             .be-active {
                 width: 50%;
@@ -598,19 +609,21 @@
                 padding-bottom: 7.4rem;
                 padding-left: 8rem;
             }
-            .content-text {
+            p.content-text {
                 font-size: 1.5rem;
                 padding-left: 8rem;
                 padding-top: 0;
-                padding-right: 12.3rem;
+                padding-right: 8rem;
             }
             .container-filled {
                 padding: 0;
+                padding-bottom: 7.4rem;
             }
             .picture-container {
                 position: relative;
             }
             div.article-number-content-filled {
+                content: "";
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -621,6 +634,8 @@
                 padding: 0;
                 top: 13.2rem;
                 left: 45vmax;
+                
+               
             }
             div.article-number-content-find-contact {
                 content: "";
@@ -640,7 +655,6 @@
             .section-be-active {
                 display: flex;
                 flex-wrap: nowrap;
-                height: 730px;
             }
             article.find-contact {
                 width: 50%;
